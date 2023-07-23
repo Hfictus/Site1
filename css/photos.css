@@ -42,7 +42,18 @@
     align-items: center;
 }
 
+.article-header {
+    padding: 0 1%;
+}
+
+.article-header h6 {
+    margin: -8px 0 0 0;
+    
+}
+
+
 @media(min-width: 600px) {
+    
     .article-body {
         margin-top: 30px;
         margin-bottom: 50px;
@@ -68,6 +79,12 @@
         display: flex;
     }
     
+    .article-header h6 {
+        display: block;
+        position: relative;
+        top: 60px;
+    }
+
     .article-body {
         margin-top: 10px;
         margin-bottom: 10px;
