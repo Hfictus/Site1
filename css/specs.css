@@ -26,6 +26,10 @@
     align-items: center;
 }
 
+.article-header h6 {
+    margin-top: -67px;
+}
+
 #med-img, #big-img {
     display: none;
 }
@@ -59,6 +63,13 @@
     
     .article-header h4 {
         margin-left: 35px;
+    }
+
+    .article-header h6 {
+        display: block;
+        position: relative;
+        top: 70px;
+        margin-right: 60px;
     }
 
     #full-body {
